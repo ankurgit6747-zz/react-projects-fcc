@@ -10,7 +10,6 @@ function App() {
     let amount = parseInt(count)
     if(count <= 0) {
       amount = 1
-  
     } if(count > 8) {
        amount = 8
    
