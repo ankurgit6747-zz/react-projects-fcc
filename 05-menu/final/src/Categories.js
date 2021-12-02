@@ -1,6 +1,7 @@
 import React from 'react';
 
 const Categories = ({ categories, filterItems }) => {
+  // this is a simple comment
   return (
     <div className="btn-container">
       {categories.map((category, index) => {
@@ -12,7 +13,7 @@ const Categories = ({ categories, filterItems }) => {
             onClick={() => filterItems(category)}
           >
             {category}
-          </button>
+          </button> 
         );
       })}
     </div>
